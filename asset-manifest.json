@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/codevination/static/css/main.af9aec77.chunk.css",
+    "main.js": "/codevination/static/js/main.125c970e.chunk.js",
+    "main.js.map": "/codevination/static/js/main.125c970e.chunk.js.map",
+    "runtime-main.js": "/codevination/static/js/runtime-main.7d020317.js",
+    "runtime-main.js.map": "/codevination/static/js/runtime-main.7d020317.js.map",
+    "static/js/2.3cf6411d.chunk.js": "/codevination/static/js/2.3cf6411d.chunk.js",
+    "static/js/2.3cf6411d.chunk.js.map": "/codevination/static/js/2.3cf6411d.chunk.js.map",
+    "static/js/3.5ef248da.chunk.js": "/codevination/static/js/3.5ef248da.chunk.js",
+    "static/js/3.5ef248da.chunk.js.map": "/codevination/static/js/3.5ef248da.chunk.js.map",
+    "index.html": "/codevination/index.html",
+    "static/css/main.af9aec77.chunk.css.map": "/codevination/static/css/main.af9aec77.chunk.css.map",
+    "static/js/2.3cf6411d.chunk.js.LICENSE.txt": "/codevination/static/js/2.3cf6411d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/codevination/static/media/bg-hero.b7491e65.jpg",
+    "static/media/certified.c641e5d6.svg": "/codevination/static/media/certified.c641e5d6.svg",
+    "static/media/fast.c3bd14cb.svg": "/codevination/static/media/fast.c3bd14cb.svg",
+    "static/media/heroes-img.b955cf30.svg": "/codevination/static/media/heroes-img.b955cf30.svg",
+    "static/media/heroes-services.a7532622.png": "/codevination/static/media/heroes-services.a7532622.png",
+    "static/media/illustration-1.750d9944.svg": "/codevination/static/media/illustration-1.750d9944.svg",
+    "static/media/illustration-2.a5517f07.svg": "/codevination/static/media/illustration-2.a5517f07.svg",
+    "static/media/logo.0c2567c6.svg": "/codevination/static/media/logo.0c2567c6.svg",
+    "static/media/lowprices.7ebe09c3.svg": "/codevination/static/media/lowprices.7ebe09c3.svg",
+    "static/media/r.8f2cc3cb.svg": "/codevination/static/media/r.8f2cc3cb.svg",
+    "static/media/vector-service-logo.0ddfa695.svg": "/codevination/static/media/vector-service-logo.0ddfa695.svg",
+    "static/media/vector-service-seo.5b4623f1.svg": "/codevination/static/media/vector-service-seo.5b4623f1.svg",
+    "static/media/vector-service-webdesign.c645849c.svg": "/codevination/static/media/vector-service-webdesign.c645849c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d020317.js",
+    "static/js/2.3cf6411d.chunk.js",
+    "static/css/main.af9aec77.chunk.css",
+    "static/js/main.125c970e.chunk.js"
+  ]
+}

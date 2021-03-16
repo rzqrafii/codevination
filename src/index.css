@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-color-dark{
+    @apply bg-gray-900 text-white
+}
+
+.font-header{
+    @apply font-sans text-2xl mb-2 font-bold text-white
+}
+.background-color-light{
+    @apply text-gray-900 bg-white
+}
+
+.menu-card{
+    @apply flex flex-col items-center h-screen font-sans;
+}
+
+.hero-img{
+    @apply flex flex-col justify-center items-center w-full;
+}
+
+
+.center-content{
+    @apply flex flex-col justify-center items-center;
+}
+
+.social-media-heroes{
+    @apply  flex flex-row w-16 p-2 mr-2 bg-transparent font-medium justify-center items-center text-center hover:shadow-sm 
+}
+
+.show-more a:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: solid 2px #212121;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0px 0 -1px 0;
+}
+
+.show-more a span {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-left: 0px;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.show-more a span::before {
+        content: " ";
+        width: 40px;
+        height: 1px;
+        background-color: #c1c3ce;
+        display: inline-block;
+        margin: 0px 9px 4px 5px;
+    
+}
+.show-more a span:hover {
+    margin-left: 8px;
+}
+
+.nav-items {
+    @apply p-4 text-white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-items::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #FFFFFF;
+    transition: width .3s;
+}
+
+.nav-items:hover::after {
+    width: 100%;
+    /* //transition: width .3s; */
+}
+
+.clients{
+    fill:#e5e5e5;
+}
+.clients:hover{
+    fill:#ee4540;
+}
+
+
+
+/* ---- */
+
+$active-color: #0074D9;
+
+nav {
+  font-family: helvetica, arial, sans-serif;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: auto;
+  
+  ul {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    
+    &.active a {
+      color: $active-color;
+      
+      &:hover {
+        color: $active-color;
+      }
+    }
+    
+    a {
+      border-bottom: 5px solid #eee;
+      color: #aaa;
+      display: block;
+      padding: 5px 20px;
+      text-decoration: none;
+      transition: all .2s ease;
+      
+      &:hover {
+        border-bottom-color: #ccc;
+        color: #888;
+      }
+    }
+  }
+  
+  .active-marker {
+    background: $active-color;
+    bottom: 0;
+    display: none;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    transition: all .2s cubic-bezier(.25, .25, .25, 1.25);
+    width: auto;
+  }
+}
